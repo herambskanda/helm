@@ -1,0 +1,60 @@
+name: Report a problem
+description: Something broke, is confusing, or could be better.
+title: "[Problem] "
+labels: ["problem"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you. Plain words are fine. If you can, attach the notes file Helm made
+        (note button › **Send my notes**). You can open it first and see what's in it.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What were you doing, and what did you see?
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect instead?
+    validations:
+      required: false
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Your computer
+      options:
+        - Mac
+        - Windows
+        - Linux
+    validations:
+      required: true
+  - type: dropdown
+    id: chip
+    attributes:
+      label: Your chip
+      description: "Mac: Apple menu › About This Mac. Windows: Settings › System › About. Linux: type uname -m."
+      options:
+        - Apple silicon (M1, M2, M3, M4…)
+        - Intel (x64)
+        - ARM (Windows or Linux)
+        - I don't know
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Helm version
+      description: Settings › About
+      placeholder: "0.9.0"
+    validations:
+      required: true
+  - type: textarea
+    id: notes-file
+    attributes:
+      label: Attach your notes file
+      description: Drag the helm-notes-….zip file here (note button › Send my notes). You can also drag pictures.
+    validations:
+      required: false

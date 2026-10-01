@@ -1,0 +1,54 @@
+name: Share something to the Marketplace
+description: Send in a template, workspace, workbench, capability or helper you made.
+title: "[Share] "
+labels: ["marketplace"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Heramb checks each one and lists it. Make the package in Helm first:
+        **Marketplace › Share yours**. It runs the checks and makes one `.zip` file.
+  - type: textarea
+    id: package
+    attributes:
+      label: Attach the zip Helm made
+      description: Drag the .zip file here and wait for the link to appear.
+    validations:
+      required: true
+  - type: input
+    id: name
+    attributes:
+      label: Its name
+      placeholder: "Friday update"
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What is it?
+      description: One or two plain sentences.
+    validations:
+      required: true
+  - type: textarea
+    id: who
+    attributes:
+      label: Who is it for?
+      description: "For example: product people, someone running a café, students."
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Helm version
+      description: Settings › About
+    validations:
+      required: false
+  - type: checkboxes
+    id: ok
+    attributes:
+      label: Before you send
+      options:
+        - label: It's my own work, or I have the right to share it.
+          required: true
+        - label: I know Heramb will look at it before it's listed, and may ask me to change something.
+          required: true

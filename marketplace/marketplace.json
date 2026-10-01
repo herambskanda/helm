@@ -1,0 +1,913 @@
+{
+  "name": "helm",
+  "owner": {
+    "name": "Helm"
+  },
+  "metadata": {
+    "description": "Helm’s Marketplace: what Helm and its makers have shared."
+  },
+  "plugins": [
+    {
+      "name": "product-kit",
+      "version": "1.1.0",
+      "description": "A whole project for product work: Discover, Define, Prototype and Measure.",
+      "source": {
+        "source": "archive",
+        "url": "packages/product-kit-1.1.0.zip",
+        "sha256": "390a63b2c4c22469e8da9b673806f1222a57688bf922cffcc128ff07caa5601e"
+      },
+      "extensions": {
+        "helm": {
+          "kind": "template",
+          "title": "Product kit",
+          "line": "A whole project for product work: Discover, Define, Prototype and Measure.",
+          "about": "Start with interviews, turn what you learn into stories with their evidence, prototype the answer and watch the numbers. Comes with a Writer, the Story from insight workflow and a Monday numbers routine (off until you turn it on), plus one sample of each kind so you can see how it works.",
+          "for": [
+            "Product"
+          ],
+          "date": "2026-09-29",
+          "maker": {
+            "id": "helm",
+            "name": "Helm",
+            "verified": true
+          },
+          "reach": {
+            "internet": false,
+            "code": "Runs Python on this computer, in a sandbox; Runs commands on this computer when its hook starts",
+            "files": "own",
+            "keys": []
+          },
+          "weight": {
+            "level": "medium",
+            "words": "Faces and a runner"
+          },
+          "size": 116471,
+          "look": [
+            "story",
+            "doc",
+            "metrics"
+          ],
+          "inside": [
+            {
+              "kind": "workspace",
+              "name": "discover",
+              "title": "Discover"
+            },
+            {
+              "kind": "workspace",
+              "name": "define",
+              "title": "Define"
+            },
+            {
+              "kind": "workspace",
+              "name": "prototype",
+              "title": "Prototype"
+            },
+            {
+              "kind": "workspace",
+              "name": "measure",
+              "title": "Measure"
+            },
+            {
+              "kind": "workbench",
+              "name": "document",
+              "title": "Document"
+            },
+            {
+              "kind": "workbench",
+              "name": "image",
+              "title": "Image"
+            },
+            {
+              "kind": "workbench",
+              "name": "notebook",
+              "title": "Notebook"
+            },
+            {
+              "kind": "workbench",
+              "name": "pdf",
+              "title": "PDF"
+            },
+            {
+              "kind": "workbench",
+              "name": "table",
+              "title": "Table"
+            },
+            {
+              "kind": "workbench",
+              "name": "user-story",
+              "title": "User story"
+            },
+            {
+              "kind": "workbench",
+              "name": "web-page",
+              "title": "Web page"
+            },
+            {
+              "kind": "capability",
+              "name": "document-view",
+              "title": "Document view"
+            },
+            {
+              "kind": "capability",
+              "name": "evidence-board",
+              "title": "Evidence board"
+            },
+            {
+              "kind": "capability",
+              "name": "flow-view",
+              "title": "Flow diagram"
+            },
+            {
+              "kind": "capability",
+              "name": "image-viewer",
+              "title": "Image viewer"
+            },
+            {
+              "kind": "capability",
+              "name": "notebook",
+              "title": "Notebook runner"
+            },
+            {
+              "kind": "capability",
+              "name": "page-view",
+              "title": "Web page preview"
+            },
+            {
+              "kind": "capability",
+              "name": "pdf-pages",
+              "title": "PDF pages"
+            },
+            {
+              "kind": "capability",
+              "name": "pdf-viewer",
+              "title": "PDF viewer"
+            },
+            {
+              "kind": "capability",
+              "name": "story-card",
+              "title": "Story card"
+            },
+            {
+              "kind": "capability",
+              "name": "table-editor",
+              "title": "Table editor"
+            },
+            {
+              "kind": "capability",
+              "name": "text-editor",
+              "title": "Text editor"
+            },
+            {
+              "kind": "subagent",
+              "name": "writer",
+              "title": "Writer"
+            },
+            {
+              "kind": "subagent",
+              "name": "story-reviewer",
+              "title": "Story reviewer"
+            },
+            {
+              "kind": "workflow",
+              "name": "story-from-insight",
+              "title": "Story from insight"
+            },
+            {
+              "kind": "routine",
+              "name": "monday-numbers",
+              "title": "Monday numbers"
+            },
+            {
+              "kind": "hook",
+              "name": "story-criteria",
+              "title": "A story needs acceptance criteria"
+            },
+            {
+              "kind": "command",
+              "name": "split-story",
+              "title": "/split-story"
+            }
+          ],
+          "changes": [
+            {
+              "version": "1.1.0",
+              "words": "Now carries its own workbenches: Helm no longer comes with any."
+            },
+            {
+              "version": "1.0.0",
+              "words": "First version in the Marketplace."
+            }
+          ],
+          "featured": true
+        }
+      }
+    },
+    {
+      "name": "everyday-workbenches",
+      "version": "1.0.0",
+      "description": "Documents, tables, images, PDFs, slides and web pages: the workbenches most projects start with.",
+      "source": {
+        "source": "archive",
+        "url": "packages/everyday-workbenches-1.0.0.zip",
+        "sha256": "c7adaf6d637dbbaaa7c16b481186f9d75b827f20e24190a7074cf66a5a9b98da"
+      },
+      "extensions": {
+        "helm": {
+          "kind": "workbench",
+          "title": "Everyday workbenches",
+          "line": "Documents, tables, images, PDFs, slides and web pages: the workbenches most projects start with.",
+          "about": "Six workbenches in one go: Document, Table, Image, PDF, Slides and Web page. They go into your library, ready for any workspace: add one from a workspace’s “Add a kind of artifact…”.",
+          "for": [
+            "Everyone"
+          ],
+          "date": "2026-09-29",
+          "maker": {
+            "id": "helm",
+            "name": "Helm",
+            "verified": true
+          },
+          "reach": {
+            "internet": false,
+            "code": false,
+            "files": "own",
+            "keys": []
+          },
+          "weight": {
+            "level": "light",
+            "words": "Faces only"
+          },
+          "size": 17271,
+          "look": [
+            "doc",
+            "table",
+            "image"
+          ],
+          "inside": [
+            {
+              "kind": "workbench",
+              "name": "document",
+              "title": "Document"
+            },
+            {
+              "kind": "workbench",
+              "name": "image",
+              "title": "Image"
+            },
+            {
+              "kind": "workbench",
+              "name": "pdf",
+              "title": "PDF"
+            },
+            {
+              "kind": "workbench",
+              "name": "slides",
+              "title": "Slides"
+            },
+            {
+              "kind": "workbench",
+              "name": "table",
+              "title": "Table"
+            },
+            {
+              "kind": "workbench",
+              "name": "web-page",
+              "title": "Web page"
+            },
+            {
+              "kind": "capability",
+              "name": "document-view",
+              "title": "Document view",
+              "builtin": true
+            },
+            {
+              "kind": "capability",
+              "name": "text-editor",
+              "title": "Text editor",
+              "builtin": true
+            },
+            {
+              "kind": "capability",
+              "name": "image-viewer",
+              "title": "Image viewer",
+              "builtin": true
+            },
+            {
+              "kind": "capability",
+              "name": "pdf-pages",
+              "title": "PDF pages",
+              "builtin": true
+            },
+            {
+              "kind": "capability",
+              "name": "pdf-viewer",
+              "title": "PDF viewer",
+              "builtin": true
+            },
+            {
+              "kind": "capability",
+              "name": "slides-view",
+              "title": "Slides viewer",
+              "builtin": true
+            },
+            {
+              "kind": "capability",
+              "name": "table-editor",
+              "title": "Table editor",
+              "builtin": true
+            },
+            {
+              "kind": "capability",
+              "name": "page-view",
+              "title": "Web page preview",
+              "builtin": true
+            }
+          ],
+          "changes": [
+            {
+              "version": "1.0.0",
+              "words": "First version in the Marketplace."
+            }
+          ],
+          "set": true,
+          "featured": true
+        }
+      }
+    },
+    {
+      "name": "data-and-media",
+      "version": "1.0.0",
+      "description": "Notebooks that run Python, dashboards, recordings with their transcripts, and videos.",
+      "source": {
+        "source": "archive",
+        "url": "packages/data-and-media-1.0.0.zip",
+        "sha256": "889c120ff54fe417985c8e8be4d0362f2ea3d8e34546fcd1555c33cd6cdc31a9"
+      },
+      "extensions": {
+        "helm": {
+          "kind": "workbench",
+          "title": "Data and media workbenches",
+          "line": "Notebooks that run Python, dashboards, recordings with their transcripts, and videos.",
+          "about": "Four workbenches in one go: Notebook, Dashboard, Recording and Video. They go into your library, ready for any workspace: add one from a workspace’s “Add a kind of artifact…”.",
+          "for": [
+            "Everyone",
+            "Research"
+          ],
+          "date": "2026-09-29",
+          "maker": {
+            "id": "helm",
+            "name": "Helm",
+            "verified": true
+          },
+          "reach": {
+            "internet": false,
+            "code": false,
+            "files": "own",
+            "keys": []
+          },
+          "weight": {
+            "level": "light",
+            "words": "Faces only"
+          },
+          "size": 10305,
+          "look": [
+            "metrics",
+            "audio"
+          ],
+          "inside": [
+            {
+              "kind": "workbench",
+              "name": "dashboard",
+              "title": "Dashboard"
+            },
+            {
+              "kind": "workbench",
+              "name": "notebook",
+              "title": "Notebook"
+            },
+            {
+              "kind": "workbench",
+              "name": "recording",
+              "title": "Recording"
+            },
+            {
+              "kind": "workbench",
+              "name": "video",
+              "title": "Video"
+            },
+            {
+              "kind": "capability",
+              "name": "dashboard-view",
+              "title": "Dashboard view",
+              "builtin": true
+            },
+            {
+              "kind": "capability",
+              "name": "table-editor",
+              "title": "Table editor",
+              "builtin": true
+            },
+            {
+              "kind": "capability",
+              "name": "notebook",
+              "title": "Notebook runner",
+              "builtin": true
+            },
+            {
+              "kind": "capability",
+              "name": "audio-player",
+              "title": "Audio player",
+              "builtin": true
+            },
+            {
+              "kind": "capability",
+              "name": "highlights",
+              "title": "Highlights",
+              "builtin": true
+            },
+            {
+              "kind": "capability",
+              "name": "video-player",
+              "title": "Video player",
+              "builtin": true
+            }
+          ],
+          "changes": [
+            {
+              "version": "1.0.0",
+              "words": "First version in the Marketplace."
+            }
+          ],
+          "set": true
+        }
+      }
+    },
+    {
+      "name": "research",
+      "version": "1.1.0",
+      "description": "A place for user research: interview recordings with their transcripts, notes, and what repeated.",
+      "source": {
+        "source": "archive",
+        "url": "packages/research-1.1.0.zip",
+        "sha256": "4f4af910423beaf26abfe4e4993020335eff97c5d79fd38bf8d92996643cbfe1"
+      },
+      "extensions": {
+        "helm": {
+          "kind": "workspace",
+          "title": "Research kit",
+          "line": "A Research workspace: interviews with their transcripts, quotes pulled out, and what repeated each week.",
+          "about": "Put each interview in as a recording. The Interview analyst pulls out the quotes that matter, and the Weekly synthesis has the Researcher write what repeated, what surprised you and what you still don’t know. The Monday digest runs it for you once you turn it on.",
+          "for": [
+            "Research",
+            "Product"
+          ],
+          "date": "2026-09-29",
+          "maker": {
+            "id": "heramb",
+            "name": "Heramb",
+            "verified": true
+          },
+          "reach": {
+            "internet": false,
+            "code": false,
+            "files": "own",
+            "keys": []
+          },
+          "weight": {
+            "level": "light",
+            "words": "Faces only"
+          },
+          "size": 8959,
+          "look": [
+            "audio",
+            "doc",
+            "table"
+          ],
+          "inside": [
+            {
+              "kind": "workspace",
+              "name": "research",
+              "title": "Research"
+            },
+            {
+              "kind": "workbench",
+              "name": "document",
+              "title": "Document"
+            },
+            {
+              "kind": "workbench",
+              "name": "recording",
+              "title": "Recording"
+            },
+            {
+              "kind": "workbench",
+              "name": "table",
+              "title": "Table"
+            },
+            {
+              "kind": "subagent",
+              "name": "interview-analyst",
+              "title": "Interview analyst"
+            },
+            {
+              "kind": "subagent",
+              "name": "researcher",
+              "title": "Researcher"
+            },
+            {
+              "kind": "workflow",
+              "name": "weekly-synthesis",
+              "title": "Weekly synthesis"
+            },
+            {
+              "kind": "routine",
+              "name": "monday-digest",
+              "title": "Monday digest"
+            },
+            {
+              "kind": "capability",
+              "name": "document-view",
+              "title": "Document view",
+              "builtin": true
+            },
+            {
+              "kind": "capability",
+              "name": "text-editor",
+              "title": "Text editor",
+              "builtin": true
+            },
+            {
+              "kind": "capability",
+              "name": "audio-player",
+              "title": "Audio player",
+              "builtin": true
+            },
+            {
+              "kind": "capability",
+              "name": "highlights",
+              "title": "Highlights",
+              "builtin": true
+            },
+            {
+              "kind": "capability",
+              "name": "table-editor",
+              "title": "Table editor",
+              "builtin": true
+            }
+          ],
+          "changes": [
+            {
+              "version": "1.1.0",
+              "words": "Now carries its own workbenches: Helm no longer comes with any."
+            },
+            {
+              "version": "1.0.0",
+              "words": "First version in the Marketplace."
+            }
+          ],
+          "featured": true
+        }
+      }
+    },
+    {
+      "name": "decision-log",
+      "version": "1.0.0",
+      "description": "One decision per artifact: what was decided, the options weighed, why, and when to look at it again.",
+      "source": {
+        "source": "archive",
+        "url": "packages/decision-log-1.0.0.zip",
+        "sha256": "c4d3200d5e540b6108f891be72022dc486cb5b7f81384fc6228fb47ff228b50e"
+      },
+      "extensions": {
+        "helm": {
+          "kind": "workbench",
+          "title": "Decision log",
+          "line": "One decision per artifact: what, why, the options weighed, and when to look again.",
+          "about": "So that six months from now anyone can see what was decided and why. The agent writes decisions in the same shape every time and never rewrites an old one; it makes a new one that replaces it.",
+          "for": [
+            "Product",
+            "Everyone"
+          ],
+          "date": "2026-09-29",
+          "maker": {
+            "id": "heramb",
+            "name": "Heramb",
+            "verified": true
+          },
+          "reach": {
+            "internet": false,
+            "code": false,
+            "files": "own",
+            "keys": []
+          },
+          "weight": {
+            "level": "light",
+            "words": "Faces only"
+          },
+          "size": 1643,
+          "look": [
+            "doc"
+          ],
+          "inside": [
+            {
+              "kind": "workbench",
+              "name": "decision-log",
+              "title": "Decision log"
+            },
+            {
+              "kind": "capability",
+              "name": "document-view",
+              "title": "Document view",
+              "builtin": true
+            },
+            {
+              "kind": "capability",
+              "name": "text-editor",
+              "title": "Text editor",
+              "builtin": true
+            }
+          ],
+          "changes": [
+            {
+              "version": "1.0.0",
+              "words": "First version in the Marketplace."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "checklist-view",
+      "version": "0.9.0",
+      "description": "Shows the task list in a Markdown file as a checklist you can tick, with how much is done.",
+      "source": {
+        "source": "archive",
+        "url": "packages/checklist-view-0.9.0.zip",
+        "sha256": "b1158b77edc0d2ac754e8fef92d475072266f0db6905214fa292be07fd30d921"
+      },
+      "extensions": {
+        "helm": {
+          "kind": "capability",
+          "title": "Checklist view",
+          "line": "The task list in any Markdown file as a checklist you tick, with how much is done.",
+          "about": "Works on any Markdown artifact with “- [ ]” lines: launch lists, packing lists, a move. Ticking a box writes it back into the file, so the agent sees it too.",
+          "for": [
+            "Everyone",
+            "Home"
+          ],
+          "date": "2026-09-29",
+          "maker": {
+            "id": "helm",
+            "name": "Helm",
+            "verified": true
+          },
+          "reach": {
+            "internet": false,
+            "code": false,
+            "files": "own",
+            "keys": []
+          },
+          "weight": {
+            "level": "light",
+            "words": "Faces only"
+          },
+          "size": 3635,
+          "look": [
+            "list"
+          ],
+          "inside": [
+            {
+              "kind": "capability",
+              "name": "checklist-view",
+              "title": "Checklist view"
+            }
+          ],
+          "changes": [
+            {
+              "version": "0.9.0",
+              "words": "First version in the Marketplace."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "competitive-analyst",
+      "version": "1.0.0",
+      "description": "A subagent that reads competitors’ public pages and says what changed since last time.",
+      "source": {
+        "source": "archive",
+        "url": "packages/competitive-analyst-1.0.0.zip",
+        "sha256": "c4cece074b944f6150b5c2e2693319ab36d1b05d0258e1b534822be27c60eabf"
+      },
+      "extensions": {
+        "helm": {
+          "kind": "subagent",
+          "title": "Competitive analyst",
+          "line": "A subagent that reads competitors’ public pages and says what changed since last time.",
+          "about": "Hand it the competitors’ names (or let it find them in your notes). It reads their pricing, product and changelog pages and writes one document with what changed, each point linked to its page.",
+          "for": [
+            "Product",
+            "Marketing"
+          ],
+          "date": "2026-09-29",
+          "maker": {
+            "id": "helm",
+            "name": "Helm",
+            "verified": true
+          },
+          "reach": {
+            "internet": true,
+            "code": false,
+            "files": "own",
+            "keys": []
+          },
+          "weight": {
+            "level": "light",
+            "words": "No faces"
+          },
+          "size": 1125,
+          "look": [
+            "doc"
+          ],
+          "inside": [
+            {
+              "kind": "subagent",
+              "name": "competitive-analyst",
+              "title": "Competitive analyst"
+            }
+          ],
+          "changes": [
+            {
+              "version": "1.0.0",
+              "words": "First version in the Marketplace."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "launch-emails",
+      "version": "1.0.0",
+      "description": "Drafts three launch emails from a story and its release notes, checks them, then waits for you.",
+      "source": {
+        "source": "archive",
+        "url": "packages/launch-emails-1.0.0.zip",
+        "sha256": "68ffa4e43f0a1298b0204c7ba66991f11f013f06a6391a7cedf43a85d8691948"
+      },
+      "extensions": {
+        "helm": {
+          "kind": "workflow",
+          "title": "Launch emails",
+          "line": "Drafts three launch emails from a story and its release notes, checks them, then waits for you.",
+          "about": "The main agent drafts an email each for customers, support and the team; a check makes sure each says what changes, for whom and when; then it waits for you.",
+          "for": [
+            "Marketing",
+            "Product"
+          ],
+          "date": "2026-09-29",
+          "maker": {
+            "id": "helm",
+            "name": "Helm",
+            "verified": true
+          },
+          "reach": {
+            "internet": false,
+            "code": false,
+            "files": "own",
+            "keys": []
+          },
+          "weight": {
+            "level": "light",
+            "words": "No faces"
+          },
+          "size": 1018,
+          "look": [
+            "doc"
+          ],
+          "inside": [
+            {
+              "kind": "workflow",
+              "name": "launch-emails",
+              "title": "Launch emails"
+            }
+          ],
+          "changes": [
+            {
+              "version": "1.0.0",
+              "words": "First version in the Marketplace."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "friday-update",
+      "version": "1.0.0",
+      "description": "Every Friday at 16:00, a short update on what changed this week, ready to send.",
+      "source": {
+        "source": "archive",
+        "url": "packages/friday-update-1.0.0.zip",
+        "sha256": "4d58d58e60a9fe72bec60a417e316b42faabbf2ce03e850767ef4f9d561e1d2c"
+      },
+      "extensions": {
+        "helm": {
+          "kind": "routine",
+          "title": "Friday update",
+          "line": "Every Friday at 16:00, a short update on what changed this week, ready to send.",
+          "about": "It comes turned off. Turn it on in the project’s Routines and it writes one short document each Friday: what changed, what’s next and what’s waiting for someone.",
+          "for": [
+            "Everyone"
+          ],
+          "date": "2026-09-29",
+          "maker": {
+            "id": "helm",
+            "name": "Helm",
+            "verified": true
+          },
+          "reach": {
+            "internet": false,
+            "code": false,
+            "files": "own",
+            "keys": []
+          },
+          "weight": {
+            "level": "light",
+            "words": "No faces"
+          },
+          "size": 914,
+          "look": [
+            "doc"
+          ],
+          "inside": [
+            {
+              "kind": "routine",
+              "name": "friday-update",
+              "title": "Friday update"
+            }
+          ],
+          "changes": [
+            {
+              "version": "1.0.0",
+              "words": "First version in the Marketplace."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "british-spelling",
+      "version": "1.0.0",
+      "description": "After any text changes, points out American spellings and their British ones.",
+      "source": {
+        "source": "archive",
+        "url": "packages/british-spelling-1.0.0.zip",
+        "sha256": "1c37378fb5cad1d6b674d60d3aaa8e9137703fb3cb80d02502f4fc6e59f1748b"
+      },
+      "extensions": {
+        "helm": {
+          "kind": "hook",
+          "title": "British spelling",
+          "line": "After any text changes, points out American spellings and their British ones.",
+          "about": "Written in plain words, no code. It runs after an artifact changes and tells the agent which words to fix.",
+          "for": [
+            "Everyone"
+          ],
+          "date": "2026-09-29",
+          "maker": {
+            "id": "helm",
+            "name": "Helm",
+            "verified": true
+          },
+          "reach": {
+            "internet": false,
+            "code": false,
+            "files": "own",
+            "keys": []
+          },
+          "weight": {
+            "level": "light",
+            "words": "No faces"
+          },
+          "size": 945,
+          "look": [
+            "doc"
+          ],
+          "inside": [
+            {
+              "kind": "hook",
+              "name": "british-spelling",
+              "title": "British spelling"
+            }
+          ],
+          "changes": [
+            {
+              "version": "1.0.0",
+              "words": "First version in the Marketplace."
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

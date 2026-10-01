@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Help pages
+    url: https://github.com/herambskanda/helm/tree/main/docs/help
+    about: Numbered steps for updating, signing in, resetting, uninstalling and when Helm won't open.
+  - name: The Helm guide
+    url: https://github.com/herambskanda/helm/tree/main/docs/guide
+    about: Short pages on every part of Helm.
