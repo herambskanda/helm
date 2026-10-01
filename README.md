@@ -5,7 +5,7 @@ making, such as a story, a web page, an interview or a spreadsheet, and you see 
 on screen instead of only reading text in a chat. It looks like the desktop apps for talking to an
 agent, with the work on the right, and it comes with Claude Code and Codex so there is nothing else to install.
 
-![Helm with a project open](docs/pictures/start.png)
+https://github.com/user-attachments/assets/a8cf037a-529f-405e-bcca-d3c64edf64ae
 
 > **Helm is in early testing (gamma).** You got this link from Heramb. Things will be rough in places,
 > and your notes are how it gets better. See [Report a problem](docs/help/report-a-problem.md).
